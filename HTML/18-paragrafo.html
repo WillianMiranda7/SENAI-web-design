@@ -8,6 +8,14 @@
 </head>
 
 <body>
+    <ul id="menu">
+        <a href="18-div.html"><li>Div</li></a>
+        <a href="18-fotos.html"><li>Fotos</li></a>
+        <a href="18-listas.html"><li>Listas</li></a>
+        <a href="18-paragrafo.html"><li id="ativo">Paragrafos</li></a>
+        <a href="18-tabela.html"><li>Tabela</li></a>
+    </ul>
+
     <p>
         Bob Burnquist é um dos melhores skatistas da história do esporte. Filho de mãe brasileira e pai norte-americano,
         ele nasceu no Rio de Janeiro, em 10 de outubro de 1976, e foi criado em São Paulo.
@@ -34,10 +42,34 @@
         Em 2014, a FoxWeekly o nomeou como um dos “skatistas mais influentes de todos os tempos”.
     </p>
 </body>
+
+
+
 <style>
     body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20pt;
+        margin: 2em;
+    }
+    #menu {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        list-style-type: none;
+        margin-bottom: 2em;
+    }
+    li {
+        margin: 1em;
+        padding: 1em;
+        background-color: orange;
+        border-radius: 30px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    #ativo {
+        background-color: orangered;
     }
 </style>
 
