@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+
+    <!-- 
+        TIPOS DE NOMEAÇÃO DE OBJETOS/VARIAVEIS/ATRIBUTOS:
+        LOW CAMEL CASE - campoNome
+        UPPER CAMEL CASE - CampoNome
+        SNAKE CASE - campo_nome
+     -->
+
+    <!-- 
+        tipos de method:
+        get - fica publico para quem tiver o endereço, ao mandar aparece o que digitou no link
+        post - encapsula a informação e fica privado
+      -->
+    <form action="procesador.php" method="get">
+        <!-- 
+            id - identifica o input
+            name - é a informação que vai ser extraida do formulário, esse campo vai para o processador
+
+            TAG fieldset - é uma tag semântica para agrupar input de um formulario
+         -->
+
+        <fieldset>
+            <legend>Formulário de Entrada</legend>
+            <label for="campoNome">Usuário:</label>
+            <input type="text" name="nome" id="campoNome" required>
+
+            <br><br>
+
+            <label for="campoEmail">E-mail:</label>
+            <input type="email" name="email" id="campoEmail" required>
+
+            <br><br>
+
+            <label for="campoSenha">Senha:</label>
+            <input type="password" name="senha" id="campoSenha" required>
+
+            <br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+
+    </form>
+<!-- 
+
+
+
+     -->
+
+</body>
+
+</html>
