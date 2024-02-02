@@ -9,16 +9,18 @@
 
 <body>
 
-    <nav>
-        <ul>
-            <a href="25-index.html"><li class="menu">Home</li></a>
-            <a href="25-listas.html"><li class="menu"></li>>Listas</li></a>
-            <a href="25-fotos.html"><li class="menu"></li>>Fotos</li></a>
-            <a href="25-tabela.html"><li class="menu"></li>>Tabela</li></a>
-            <a href="25-video.html"><li class="menu"></li>>Video</li></a>
-        </ul>
-    </nav>
-
+    <header>
+        <nav>
+            <ul>
+                <a href="25-index.html"><li class="menu" id="ativo">Home</li></a>
+                <a href="25-listas.html"> <li class="menu">Listas</li></a>
+                <a href="25-fotos.html"><li class="menu">Fotos</li></a>
+                <a href="25-tabela.html"><li class="menu">Tabela</li></a>
+                <a href="25-video.html"><li class="menu">Video</li> </a>
+            </ul>
+        </nav>
+    </header>
+    
     <main>
         <h1>Remédios Naturais</h1>
 
@@ -29,11 +31,30 @@
 
 
 <style>
-    
     body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20pt;
         margin: 2em;
+    }
+
+    .menu {
+        list-style: none;
+        margin: 15px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    a{
+        text-decoration: none;
+    }
+    p{
+        width: 25em;
+    }
+    #ativo{
+        color: orangered;
     }
 
 </style>

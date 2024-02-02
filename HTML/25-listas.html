@@ -8,43 +8,47 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul id="paiMenu">
+                <a href="25-index.html"><li class="menu">Home</li></a>
+                <a href="25-listas.html"><li class="menu" id="ativo">Listas</li></a>
+                <a href="25-fotos.html"><li class="menu">Fotos</li></a>
+                <a href="25-tabela.html"><li class="menu">Tabela</li></a>
+                <a href="25-video.html"><li class="menu">Video</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <main>
+        <h1>Lista dos 8 remédios naturais</h1>
+        <section>
+            <ul>
+                <li>Confie em Deus</li>
+                <li>Exerça a temperança</li>
+                <li>Alimentação Saudável</li>
+                <li>Ingestão regular de água</li>
+                <li>Prática de exercício físico</li>
+                <li>Faça repouso</li>
+                <li>Respiração de ar puro</li>
+                <li>Exposição à luz solar</li>
+            </ul>
+        </section>
 
-    <nav>
-        <ul>
-            <a href="25-index.html"><li class="menu">Home</li></a>
-            <a href="25-listas.html"><li class="menu"></li>>Listas</li></a>
-            <a href="25-fotos.html"><li class="menu"></li>>Fotos</li></a>
-            <a href="25-tabela.html"><li class="menu"></li>>Tabela</li></a>
-            <a href="25-video.html"><li class="menu"></li>>Video</li></a>
-        </ul>
-    </nav>
-
-    <section>
-        <ul>
-            <li>Confie em Deus</li>
-            <li>Exerça a temperança</li>
-            <li>Alimentação Saudável</li>
-            <li>Ingestão regular de água</li>
-            <li>Prática de exercício físico</li>
-            <li>Faça repouso</li>
-            <li>Respiração de ar puro</li>
-            <li>Exposição à luz solar</li>
-        </ul>
-    </section>
-
-    <section>
-        <ol>
-            <li>Confie em Deus</li>
-            <li>Ingestão regular de água</li>
-            <li>Faça repouso</li>
-            <li>Alimentação Saudável</li>
-            <li>Exposição à luz solar</li>
-            <li>Exerça a temperança</li>
-            <li>Prática de exercício físico</li>
-            <li>Respiração de ar puro</li>
-        </ol>
-    </section>
-
+        <section>
+            <ol>
+                <li>Confie em Deus</li>
+                <li>Ingestão regular de água</li>
+                <li>Faça repouso</li>
+                <li>Alimentação Saudável</li>
+                <li>Exposição à luz solar</li>
+                <li>Exerça a temperança</li>
+                <li>Prática de exercício físico</li>
+                <li>Respiração de ar puro</li>
+            </ol>
+        </section>
+    </main>
 
 
 </body>
@@ -54,6 +58,27 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20pt;
         margin: 2em;
+    }
+
+    .menu {
+        list-style: none;
+        margin: 15px;
+    }
+
+    #paiMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    h1 {
+        white-space: nowrap;
+    }
+    #ativo{
+        color: orangered;
     }
 </style>
 

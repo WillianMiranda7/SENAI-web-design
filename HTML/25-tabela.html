@@ -8,29 +8,33 @@
 </head>
 
 <body>
-
-    <nav>
-        <ul>
-            <a href="25-index.html"><li class="menu">Home</li></a>
-            <a href="25-listas.html"><li class="menu"></li>>Listas</li></a>
-            <a href="25-fotos.html"><li class="menu"></li>>Fotos</li></a>
-            <a href="25-tabela.html"><li class="menu"></li>>Tabela</li></a>
-            <a href="25-video.html"><li class="menu"></li>>Video</li></a>
-        </ul>
-    </nav>
-
+    <header>
+        <nav>
+            <ul>
+                <a href="25-index.html"><li class="menu">Home</li></a>
+                <a href="25-listas.html"><li class="menu">Listas</li></a>
+                <a href="25-fotos.html"><li class="menu">Fotos</li></a>
+                <a href="25-tabela.html"><li class="menu" id="ativo">Tabela</li></a>
+                <a href="25-video.html"><li class="menu">Video</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    
     <main>
+        <h1>Tabela dos 8 remédios naturais</h1>
         <table border="">
             <thead>
                 <tr>
-                    <th>Remédio</th>
+                    <th>Remédio Natural</th>
                     <th>Área Beneficiada</th>
                     <th>Idade Indicada</th>
                 </tr>
             </thead>
 
             <tbody>
-                <tr>
+                <tr class="blue">
                     <td>Alimentação Saudável</td>
                     <td>Corpo e mente</td>
                     <td>Todas</td>
@@ -40,7 +44,7 @@
                     <td>Corpo e mente</td>
                     <td>Todas</td>
                 </tr>
-                <tr>
+                <tr class="blue">
                     <td>Respiração de ar puro</td>
                     <td>Corpo e Mente</td>
                     <td>Todas</td>
@@ -50,7 +54,7 @@
                     <td>Corpo e mente</td>
                     <td>Todas</td>
                 </tr>
-                <tr>
+                <tr class="blue">
                     <td>Prática de exercício físico</td>
                     <td>Corpo</td>
                     <td>Consulte seu médico</td>
@@ -60,7 +64,7 @@
                     <td>Mente</td>
                     <td>Todas</td>
                 </tr>
-                <tr>
+                <tr class="blue">
                     <td>Exerça a temperança</td>
                     <td>Corpo, mente e espírito</td>
                     <td>Todas</td>
@@ -77,11 +81,40 @@
 </body>
 
 <style>
+    
     body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20pt;
         margin: 2em;
     }
+    .menu{
+        list-style: none;
+        margin: 15px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    h1{
+        white-space: nowrap;
+    }
+    #ativo{
+        color: orangered;
+    }
+    .blue{
+        background-color: rgba(0, 0, 255, 0.212);
+    }
+    thead{
+        color: white;
+        background-color: rgb(37, 37, 158);
+    }
+
 </style>
 
 </html>
