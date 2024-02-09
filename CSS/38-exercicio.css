@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    margin: 20px;
+    font-size: 20pt;
+}
+
+#joy{
+    height: 427px;
+}
+.imagens-home{
+
+}
+h1{
+    font-size: 50pt;
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 30pt;
+    margin-top: 70px;
+}
+p{
+    width: 50%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25pt;
+    margin-top: 20px;
+    text-indent: 1em;
+}
