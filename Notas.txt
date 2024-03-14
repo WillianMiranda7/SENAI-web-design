@@ -1,0 +1,8 @@
+60 -30 -10
+
+
+60% - Cor dominante, que terá mais presença dentro das interfaces
+
+30% - Cor secundária, que servirá como contraste a cor de destaque e terá a harmonia. Em muitos casos são ocupadas po fotos ( a cor de fundo conta).
+
+10% - Cor de destaque, geralmente ocupado por chamadas para ação, compra, cor da marca, botão, link etc.

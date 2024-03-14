@@ -1,0 +1,43 @@
+Protótipos
+
+Baixa-fidelidade =  Rascinho em papel
+- Sem preocupação com o design
+
+
+Protótipo de média fidelidade = Wireframe
+
+- Prioriza a hierarqia das informações.
+- Simula interações simples, como navegação por meio de botões ou links.
+- Não se preocupa com cores.
+
+
+Alta fidelidade
+
+- Muito utilizados para validação com usuários e clientes.
+- Mais próximo o possível da verdadeira representação visual final do projeto.
+- Utiliza-se cores e designs.
+- Economiza tempo e dinheiro em algo que teria tido pouco sucesso no mercado.
+- Usar "fios" para indicar a navegação entre as páginas (clicar em um botão/imagem e ser encaminhado para putra página).
+
+
+- Usar o mobile first
+    Vantagens:
+        -Melhora a experiência do usuários.
+        -O Google prioriza a versão mobile de um site na hora de indexá-lo.
+        -Diminui a taxa de rejeição.
+        -Aumenta as vendas.
+        -Acessível a qualquer navegador.
+            
+*Desenvolvido por Luke Wrobleswiski, do google entre 2009 e 2010
+
+
+
+
+Figma
+
+Desktop - 12 cols
+Tablet - 8 cols
+Mobile - 4 cols
+
+Espaço que o conteúdo ocupa nos desktops:
+De 70% a 90%
