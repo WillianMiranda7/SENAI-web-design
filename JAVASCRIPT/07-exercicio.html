@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+        let studentName = window.prompt("Digite o nome do aluno")
+        let testGrade1 = Number(window.prompt("Digite a nota de Matemática do aluno"))
+        let testGrade2 = Number(window.prompt("Digite a nota de Português do aluno"))
+        let testGrade3 = Number(window.prompt("Digite a nota de Física do aluno"))
+        let testGrade4 = Number(window.prompt("Digite a nota de Biologia do aluno"))
+
+        let gradeAvarage = (testGrade1+testGrade2+testGrade3+testGrade4)/4
+
+        window.alert(`A média de notas do aluno ${studentName} é: ${gradeAvarage}.`)
+    </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+-typeof variáveis
+Number = 10 5 -25 3,45 8.7 -1.2
+String = "SENAI" 'BARUERI' `JavaScript`
+Boolean = true/false
+
+
+-SEMPRE colocar "" nos prompts, alerts etc. quando for uma string
+Ex: window.prompt("Senai")
+
+NÂO colocar quando for uma variável
+Ex:
+let cidade = "Barueri"
+window.alert(cidade)
+
+
+-Concatenação de variáveis.
+let gol = 6
+window.alert("Vai Corinthians" + gol)   ### a concatenaçãon incluindo o símbulo de "+" fica por fora das aspas.
+Vai Corinthians 6
+
+Forma mais atual de concatenar:
+let gol = 6
+window.alert(`O Corinthians fez ${gol} gols.`)
+### Com crase.
+
+
+-Prompt smepre interpreta os dados como string, se quiser usá-lo como number, deve-se convertê-lo de tipo string para tipo number.
+Ex: 2+2 = 22
+
+Como converter: Number.parseInt()
+let valor1 = Number.parseInt(window.prompt("Imforme um valor 1"))
+
+Onde: "valor1" é o identificador >nome da variável<;
+"Number.parseInt()" vai converter para número inteiro;
+window.prompt() é p prompt em si.
+
+Como concatenar de forma MAIS SIMPLES;
+Number()
+e ele já identifica se é inteiro (Int) ou real (Float)
+
+
+-Operadores:
+Adição: +
+Subtração: -
+Divisão: /
+Multiplicação: *
+Potência: **
+Resto da divisão: %
+
+Precedência:
+() - Parêntesis
+** - Potenciação
+* e / - Multiplicação e divisão (O que aparecer antes)
++ e - - Adição e subtração (O que aparecer antes)
+
+
+-Operadores Relacionais
+> - Maior que
+> - Menor que
+>= - Maior ou igual
+<= - Menor ou igual
+== - Igual a
+!= - Diferente de
