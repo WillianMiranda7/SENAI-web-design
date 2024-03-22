@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vírgula</title>
+</head>
+
+<body>
+
+
+    <script>
+        //Captura valores das variáveis valor1 valor2
+        let valor1 = window.prompt("Digite valor 1")
+        let valor2 = window.prompt("Digite valor 2")
+
+        //Converte os valores das variáveis valor1 e valor2 para o tipo Número e substitui as vírgulas por pontos
+        let valor1Num = Number(valor1.replace(",", "."))
+        let valor2Num = Number(valor2.replace(",", "."))
+        
+        //Soma as variáveis valor1Num e valor2Num
+        let soma = valor1Num + valor2Num
+        
+        //Converte o resultado em texto
+        let somaStr = String(soma)
+
+        //Substitui os pontos do resultado para vírgula
+        somaStr = somaStr.replace(".", ",")
+
+        //Exibe o resultado em uma caixa do tipo Alert
+        window.alert(somaStr)
+    </script>
+</body>
+
+</html>

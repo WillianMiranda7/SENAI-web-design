@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendedor</title>
+</head>
+<body>
+    
+
+    <script>
+
+        let nomeDoVendedor = prompt("Digite o nome do(a) vendedor(a).")
+        let vendasFogao = Number(prompt(`Digite o valor total que ${nomeDoVendedor} vendeu de fogões.`))
+        let vendasGeladeira = Number(prompt(`Digite o valor total que ${nomeDoVendedor} vendeu geladeiras`))
+        let vendasMicroondas = Number(prompt(`Digite o valor total que ${nomeDoVendedor} vendeu de microondas`))
+
+        let bateuMeta = `Parabéns, ${nomeDoVendedor}! Você receberá uma viagem!`
+        let naoBateuMeta = `${nomeDoVendedor}, infelizmente você não atingiu a meta!`
+
+        vendasFogao >=18000 || vendasGeladeira >=26800 || vendasMicroondas >=4600? alert(bateuMeta): alert(naoBateuMeta)
+
+    </script>
+</body>
+</html>

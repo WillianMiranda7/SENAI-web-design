@@ -61,3 +61,39 @@ Precedência:
 <= - Menor ou igual
 == - Igual a
 != - Diferente de
+
+
+-Conversão vírgula
+Função replace
+replace("." , ",") ### trovar ponto por vírgula
+Ex: Number(valor1.replace(".", ","))
+
+Não é possível caucular números com vírgula(,), deve-se converter para ponto(.).
+
+
+
+-Operadores lógicos em JavaScript
+
+! - não/negação
+### É um operador unário.
+
+Ex em um console:
+let valorA = 5>10   (enter)
+valorA    (enter)
+false.    (enter)
+!valorA   (enter)
+ture
+
+
+&& - e/Conjunção
+### É um operador binário
+Os dois devem ser true para ser verdadeiro.
+
+
+
+|| - ou/disjunção
+### Operador binário
+Somente um precisa ser true para ser verdadeiro. Se as duas forem false, o || será falso.
+
+? : - Operador ternário
+teste ? resultado para teste verdadeiro : resultado para teste falso
