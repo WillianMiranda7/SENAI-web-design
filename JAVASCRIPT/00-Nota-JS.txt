@@ -22,6 +22,7 @@ Forma mais atual de concatenar:
 let gol = 6
 window.alert(`O Corinthians fez ${gol} gols.`)
 ### Com crase.
+### Template string
 
 
 -Prompt smepre interpreta os dados como string, se quiser usá-lo como number, deve-se convertê-lo de tipo string para tipo number.
@@ -90,10 +91,38 @@ ture
 Os dois devem ser true para ser verdadeiro.
 
 
-
 || - ou/disjunção
 ### Operador binário
 Somente um precisa ser true para ser verdadeiro. Se as duas forem false, o || será falso.
 
+
 ? : - Operador ternário
 teste ? resultado para teste verdadeiro : resultado para teste falso
+
+
+
+DOM
+
+window = Janela do navegador
+document = meu documento qur está sendo rodado no navegador
+    head
+        meta meta title link
+    body
+        div
+            img, h1 p div
+        script
+
+child - filho
+parent - pai
+
+
+Selecionar elementos por:
+
+TAG
+let paragrafo1 = getElementsByTagName('p') [0]
+window.document.write(paragrafo1.innertext)
+
+ID
+Nome
+Classe
+Seletor
