@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+    <style>
+
+        #teste{
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="teste" onclick="alteraCor()" onmouseout="alteraTexto()">SENAI Barueri</div>
+
+    <script>
+        
+        // Captura o elemento div de id="teste"
+        let caixa = window.document.getElementById("teste")
+
+
+        // Altera a cor do elemento para amarelo
+        function alteraCor(){
+            caixa.style.background = "yellow"
+        }
+
+
+        // Altera o texto quando tirar o mouse
+        function alteraTexto() {
+            caixa.innerText = "Web-Design - Frontend"
+        }
+        
+
+    </script>
+</body>
+</html>

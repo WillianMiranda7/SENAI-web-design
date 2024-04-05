@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio JS</title>
+    <style>
+
+        .fundo{
+            background-color: #fff;
+        }
+        .fundoAmareloCSS{
+            background-color: yellow;
+        }
+        .fundoAzulCSS{
+            background-color: blue;
+        }
+
+        .fundoVermelhoCSS{
+            background-color: red;
+        }
+
+        div{
+            width: 200px;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #888;
+            text-align: center;
+            color: #fff;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body class="fundo" id="corpo">
+
+    <div onclick="fundoAmarelo()">Amarelo</div>
+    <div onclick="fundoAzul()">Azul</div>
+    <div onclick="fundoVermelho()">Vermelho</div>
+
+    <script>
+
+        function fundoAmarelo() {
+            corpo.setAttribute("class", "fundoAmareloCSS")
+        }
+        function fundoAzul() {
+            corpo.setAttribute("class", "fundoAzulCSS")
+        }
+        function fundoVermelho() {
+            corpo.setAttribute("class", "fundoVermelhoCSS")
+        }
+
+    </script>
+    
+</body>
+</html>

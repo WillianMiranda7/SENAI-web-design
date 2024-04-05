@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício JS</title>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: serif;
+
+        }
+
+        #modos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 32px;
+        }
+        div{
+            text-align: center;
+            height: 40px;
+            width: 200px;
+            margin: 0 4px;
+            border: solid;
+            border-radius: 5px;
+        }
+        p{
+            font-size: 2rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <section id="modos">
+        <div id="darkMode" onclick="escurecer()"><p>Modo Escuro</p></div>
+        <div id="lightMode" onclick="clarear()"><p>Modo Claro</p></div>
+    </section>
+    
+
+    <script>
+
+        let escuro = window.document.getElementById("darkMode")
+        let claro = window.document.getElementById("lightMode")
+        let corpo = window.document.body
+
+        // Escurecer
+        function escurecer(){
+            corpo.style.background = "#222"
+            corpo.style.color = "#fff"
+        }
+
+        // Clarear
+        function clarear(){
+            corpo.style.background = "#fff"
+            corpo.style.color = "#222"
+
+        }
+
+    </script>
+</body>
+</html>

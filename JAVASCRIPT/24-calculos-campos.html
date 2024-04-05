@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculos</title>
+</head>
+<body>
+
+    <form action="">
+
+        <label for="valor1">Valor 1</label>
+        <input id="valor1" type="number">
+        <br><br>
+        <label for="valor2">Valor 2</label>
+        <input id="valor2" type="number">
+        <br><br>
+        <input type="button" value="Calcular Agora" onclick="calcularValores()">
+        <br><br>
+        O resultado da soma dos dois número é: <span id="resultadoFinal"></span>
+
+
+    </form>
+    
+
+    <script>
+
+        
+        function calcularValores() {
+            let campo1 = Number(document.getElementById("valor1").value)
+            let campo2 = Number(document.getElementById("valor2").value)
+            let exibirResultado = document.getElementById("resultadoFinal")
+            let soma =  campo1+campo2
+            exibirResultado.innerText =  `${soma}`
+            // alert(soma)
+        }
+
+    </script>
+</body>
+</html>

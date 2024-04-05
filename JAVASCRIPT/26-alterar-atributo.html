@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar tributo</title>
+    <style>
+            body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        button{
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    
+    <img src="imagens/lampada-apagada.jpg" alt="Lampada apagada" id="lampada">
+    <br>
+    <button id="botaoDeAcao" onclick="acendeLampada()">Acender lâmpada</button>
+    <br>
+    <button id="botaoDeApagar" onclick="apagaLampada()">Apagar lâmpada</button>
+
+    <script>
+
+        let botaoAcende = window.document.getElementById("botaoDeAcao")
+        let botaoApagar = window.document.getElementById("botaoDeApagar")
+
+        function acendeLampada() {
+            lampada.setAttribute("src", "imagens/lampada-acesa.jpg")
+        }
+
+        function apagaLampada() {
+            lampada.setAttribute("src", "imagens/lampada-apagada.jpg")
+        }
+
+    </script>
+</body>
+</html>
