@@ -153,3 +153,11 @@ lampada.setAttributesetAttribute("src", "imagens/lampada-off.png")
 lampada: id da tag dona do atributo
 -src: está na posição do atributo que será mudado.
 -"imagens/lampada-off.png": está na posição de PARA QUÊ será mudado
+
+
+
+-Estruturas condicionais
+
+if(condição){
+    o que acontece se a condição for verdadeira
+}

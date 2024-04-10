@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+    <style>
+
+        .maior{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 600px;
+            background-color: #008000;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2rem;
+        }
+        .menor{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 600px;
+            background-color: #ff0000;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2rem;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <p id="msgIdade" class="v">rgr</p>
+
+    <script>
+
+        let idade = Number(window.prompt("Digite sua idade:"))
+
+        if(idade >= 18) {
+            msgIdade.innerText = "Maior de idade"
+            msgIdade.setAttribute("class", "maior")
+        } else if(idade < 18){
+            msgIdade.innerText = "Menor de idade"
+            msgIdade.setAttribute("class", "menor")
+        }
+
+    </script>
+</body>
+</html>

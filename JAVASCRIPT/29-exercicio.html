@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Idade</title>
+</head>
+<body>
+    
+
+    <script>
+
+       let idade = Number(window.prompt("Digite sua idade"))
+
+       if(idade >= 18) {
+        window.alert(`Usuário logado`)
+       }
+       else if(idade <= 17){
+        window.alert(`Lamento, você ainda não tem idade suficiente para logar.`)
+       } 
+       else if(idade == "") {
+        window.alert(`O campo não foi preenchido. Reinicie a janela e tente novamente.`)
+       }
+
+    </script>
+</body>
+</html>
