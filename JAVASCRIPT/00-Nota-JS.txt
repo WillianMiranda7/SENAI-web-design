@@ -148,7 +148,7 @@ Declarar função é dar um nome para ela.
 setAttribute:
 Ex:
 <img src="imagens/lampada-off.png" alt="Lâmpada Desligada" id="lampada" onclick="quebraLampada()">
-lampada.setAttributesetAttribute("src", "imagens/lampada-off.png")
+lampada.setAttribute("src", "imagens/lampada-off.png")
 
 lampada: id da tag dona do atributo
 -src: está na posição do atributo que será mudado.
