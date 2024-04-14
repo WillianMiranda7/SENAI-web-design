@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
 
+        *{
+            padding: 0;
+            margin: 0;
+            border: none;
+            box-sizing: border-box;
+        }
+
+        input{
+            display: flex;
+            padding: 10px;
+            border: solid 2px;
+        }
+        #buttomVerify{
+            cursor: pointer;
+        }
         form{
             position: absolute;
             top: 50%;
@@ -26,7 +41,7 @@
         <input type="number" name="visitante" id="pontuacaoVisitante">
         <br>
         <br>
-        <input type="button" value="Verificar Resultado" onclick="resultado()">
+        <input id="buttomVerify" type="button" value="Verificar Resultado" onclick="resultado()">
 
         <p id="resposta"></p>
 
