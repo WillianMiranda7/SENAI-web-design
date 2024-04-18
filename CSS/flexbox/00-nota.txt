@@ -1,0 +1,39 @@
+Breakpoints:
+
+Celular - <=480px (O desenvolvimento começa por aqui)
+
+Tablet - <=768px
+
+Desktop - >=1024px
+
+
+
+
+ESTRUTURA DA PASTA DO PROJETO:
+css
+js
+imagens
+
+arquivos soltos
+
+
+###Primeira página deve estar com o nome "index.html"
+
+###usar pt-br
+
+usar limite do conteúdo dentro de um container
+
+usar tags semânticas: header, nav, footer, main, article etc.
+
+declarar o alt das imagens
+
+
+
+
+
+
+
+link para email: <a href="mailto:contato@padaria.com">contato@padaria.com</a>
+
+
+ESTETICAR
