@@ -1,0 +1,7 @@
+Breakpoints;
+
+Celular - <=480px (O desenvolvimento começa por aqui)
+
+Tablet - <=768px
+
+Desktop - >=1024px
