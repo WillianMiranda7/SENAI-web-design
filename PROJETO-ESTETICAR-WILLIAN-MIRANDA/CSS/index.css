@@ -1,0 +1,45 @@
+#divBackImg{
+    position: absolute;
+    top: 104px;
+}
+
+#forBack{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+#imgTitleHome{
+    position: relative;
+}
+
+#homeTitle{
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+    color: white;
+    z-index: 2;
+}
+
+#explain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#firstH2{
+    margin-top: 450px;
+    padding: 24px;
+    text-align: center;
+    background-color: #A30000;
+}
+
+.imgMain{
+    padding: 0 8px;
+}
+
+.txtMain{
+    padding: 0 8px;
+}
