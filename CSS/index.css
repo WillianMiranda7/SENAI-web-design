@@ -1,0 +1,68 @@
+main{
+    margin-top: 104px;
+}
+
+#homeTitleBg{
+    background-image: url(../imagens/destaque-home.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 56px 0;
+    position: relative;
+}
+
+#overlayPhotoHome{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#homeTitleTxt{
+    position: relative;
+    padding-left: 16px;
+}
+
+#firstPRed{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 24px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: #A30000;
+}
+#secondPRed, #thirdPRed{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 24px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: #A30000;
+    border: solid 1px #ACF39D;
+}
+
+.imgMain{
+    padding: 0 8px;
+}
+.txtMain{
+    padding: 0 8px;
+    margin-top: 16px;
+}
+
+
+
+
+
+@media screen and (min-width: 769px) {
+
+.imgMain{
+    padding: 0;
+}
+.txtMain{
+    padding: 0;
+}
+
+}
