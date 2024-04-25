@@ -1,0 +1,48 @@
+
+
+.greenLine{
+    height: 4px;
+    width: 100px;
+    background-color: #ACF39D;
+    position: relative;
+    margin: 16px;
+}
+
+#topOfAbout{
+    background-image: url(../imagens/quem-somos-leve.webp);
+    background-size: cover;
+    padding: 140px 0;
+    position: relative;
+}
+
+#topOfAbout h1{
+    position: relative;
+    padding-left: 16px;
+}
+
+#overlayPhotoAbout{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#explainAbout{
+    margin-top: 40px;
+}
+#explainAbout p{
+    border-left: solid 3px #ACF39D;
+    margin-top: 16px;
+    margin-left: 8px;
+}
+
+
+.imgMain{
+    padding: 0 8px;
+}
+.txtMain{
+    padding: 0 8px;
+    margin-top: 16px;
+}

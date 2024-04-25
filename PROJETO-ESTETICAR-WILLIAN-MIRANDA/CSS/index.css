@@ -1,45 +1,109 @@
-#divBackImg{
-    position: absolute;
-    top: 104px;
+main{
+    margin-top: 104px;
 }
 
-#forBack{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
-}
-
-#imgTitleHome{
+#homeTitleBg{
+    background-image: url(../imagens/destaque-home.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 56px 0;
     position: relative;
 }
 
-#homeTitle{
-    top: 50%;
-    transform: translate(0, -50%);
+#overlayPhotoHome{
     position: absolute;
-    color: white;
-    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
-#explain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#homeTitleTxt{
+    position: relative;
+    padding-left: 16px;
 }
 
-#firstH2{
-    margin-top: 450px;
+#firstPRed{
+    margin-top: 16px;
+    margin-bottom: 16px;
     padding: 24px;
+    font-size: 1.5rem;
+    font-weight: 600;
     text-align: center;
     background-color: #A30000;
+}
+#secondPRed, #thirdPRed{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 24px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: #A30000;
+    border: solid 1px #ACF39D;
 }
 
 .imgMain{
     padding: 0 8px;
 }
-
 .txtMain{
     padding: 0 8px;
+    margin-top: 16px;
+}
+
+
+.greenLine{
+    height: 4px;
+    width: 100px;
+    background-color: #ACF39D;
+    position: relative;
+    margin-left: 16px;
+}
+
+
+
+
+/* Smartphone */
+@media screen and (min-width: 769px) {
+
+.imgMain{
+    padding: 0;
+    width: 50%;
+}
+.txtMain{
+    padding: 0;
+    margin: 0;
+}
+
+.txtRight{
+    margin-left: 24px;
+}
+
+.txtLeft{
+    margin-right: 24px;
+}
+
+
+
+#homeTitleBg{
+    background-image: url(../imagens/destaque-home.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0;
+    position: relative;
+}
+
+#firstTxtImg, #thirdTxtImg{
+    display: flex;
+    align-items: center;
+}
+
+#secondTxtImg, #fourthTxtImg{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
 }
