@@ -1,0 +1,84 @@
+p {
+    margin-top: 16px;
+}
+
+ul {
+    margin-top: 16px;
+}
+
+main {
+    margin-top: 140px;
+}
+
+.containerOfCards {
+    margin-top: 40px;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #070d13;
+    align-items: center;
+    box-shadow: 2px 2px 10px #ACF39D;
+}
+
+#cardsOfServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cardsOfServices img {
+    border-radius: 5px;
+}
+
+#cardsOfServices a {
+    color: #ACF39D;
+}
+
+#cardsOfServices i {
+    padding-left: 8px;
+}
+
+
+
+
+.listLine {
+    width: 16px;
+    height: 3px;
+    background-color: #ACF39D;
+    margin-right: 8px;
+    border-radius: 25px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        width: 500px;
+    }
+
+    #firstLineServices,
+    #secondLineServices,
+    #thirdLineServices,
+    #fourthLineServices,
+    #fivethLineServices {
+        width: 100%;
+        max-width: 1280px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .containerOfCards {
+        position: relative;
+        border: solid 1px #ACF39D;
+
+    }
+    
+    .descriptionOfService {
+        position: absolute;
+        bottom: 0;
+    }
+
+}
